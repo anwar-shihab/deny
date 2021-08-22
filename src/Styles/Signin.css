@@ -1,0 +1,74 @@
+
+.form-container{
+    display: grid;
+    padding-top: 2rem;
+  }
+  
+  .main-container{
+    background: url(https://cdn.shopify.com/s/files/1/0068/2302/t/185/assets/banana_wallpaper_03.jpg?v=17535485931296412844);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  
+  .container img{
+    width: 300px;
+  }
+  
+  .title{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #666;
+  }
+  
+  .mail,.password{
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .password{
+    margin-top: 2rem;
+  }
+  
+  .inpts{
+    border: none;
+    padding: 15px 6px;
+    height: 38px;
+    background-color: #FAF9F6;
+    border-radius: 0;
+  }
+  .forgot{
+    font-size: 11.5px;
+    color: black;
+  }
+  a{
+    color: black;
+  }
+  
+  .btn{
+    border-radius: 0;
+    height: 3rem;
+    background: none;
+    border: 2px solid black;
+    font-weight: 600;
+  }
+  
+  .partner{
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+
+
+  @media (min-width:400px){
+      .main-container{
+          height: 100vh;
+      }
+  }

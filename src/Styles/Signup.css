@@ -1,0 +1,67 @@
+
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  .top-container{
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    background-color: rgba(255,255,255,.9);
+    border-top: 5px solid darkgreen;
+    position: fixed;
+  }
+  
+  .logo{
+      width: 170px;
+      height: auto;
+      cursor: pointer;
+      padding-left: 40px;
+    }
+  
+  .icon-profile {
+      height: 40px;
+      margin-left: 35px;
+      margin-top: 14px;
+    }
+  
+  .nav-item{
+      margin: 0 16px;
+  }
+  
+  .nav-item::after {
+      content: '';
+      display: block;
+      width: 0px;
+      height: 2px;
+      border-bottom: 1px solid black;
+      transition: 0.4s
+  }
+  
+  .nav-item:hover::after {
+      width: 100%;
+  }
+
+.req label{
+    color: red;
+    float: left;
+    margin-right: 5px;
+}
+
+  .required-field::before {
+    content: "*";
+    color: red;
+    float: right;
+  }
+
+  .brdr{
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }

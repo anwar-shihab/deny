@@ -1,0 +1,118 @@
+
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  .top-container{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    background-color: rgba(255,255,255,.9);
+    border-top: 5px solid darkgreen;
+  }
+  
+  .logo{
+      width: 170px;
+      height: auto;
+      cursor: pointer;
+      padding-left: 40px;
+    }
+  
+  .icon-profile {
+      height: 40px;
+      margin-left: 35px;
+      margin-top: 14px;
+    }
+  
+  .nav-item{
+      margin: 0 16px;
+  }
+  
+  .nav-item::after {
+      content: '';
+      display: block;
+      width: 0px;
+      height: 2px;
+      border-bottom: 1px solid black;
+      transition: 0.4s
+  }
+  
+  .nav-item:hover::after {
+      width: 100%;
+  }
+
+  h2{
+      color: #666;
+      font-weight: 100;
+      width: 100%;
+      border-bottom: 1px solid #666;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+  }
+
+  .thumbnail{
+    border: 1px solid;
+    border-radius: 50%;
+    height: 70px;
+    padding: 0;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .thumbnail:hover{
+    border: 2px solid;
+  }
+
+  .container-2{
+    border-bottom: 1px solid  #666;
+    margin-top: 2rem;
+  }
+
+  .designer{
+    border-bottom: 1px solid #666;
+    cursor: pointer;
+    margin-top: 1rem;
+
+  }
+
+  .designer:hover{
+    border: none;
+    color: #666;
+    
+  }
+
+  .attributes{
+    font-size: 9pt;
+    color: #000;
+  }
+
+  .btn{
+    font-family: 'Avenir Next',sans-serif;
+    border: 1px solid #000;
+    font-size: 14px;
+    letter-spacing: .1em;
+    color: #000;
+    padding: 14px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out,color .3s ease-in-out;
+    border-radius: 0;
+    font-weight: 600;
+  }
+
+ .btn:active{
+   outline: none;
+   border: none;
+ }
+
+ .btn:hover{
+   background-color: #000;
+   color: #666;
+ }
+

@@ -1,0 +1,105 @@
+
+ul{
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li a {
+    text-decoration: none;
+  }
+  
+  .top-container{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: #fff;
+    background-color: rgba(255,255,255,.9);
+    border-top: 5px solid darkgreen;
+  }
+  
+  .logo{
+      width: 170px;
+      height: auto;
+      cursor: pointer;
+      padding-left: 40px;
+    }
+  
+  .icon-profile {
+      height: 40px;
+      margin-left: 35px;
+      margin-top: 14px;
+    }
+  
+  .nav-item{
+      margin: 0 16px;
+  }
+  
+  .nav-item::after {
+      content: '';
+      display: block;
+      width: 0px;
+      height: 2px;
+      border-bottom: 1px solid black;
+      transition: 0.4s
+  }
+  
+  .nav-item:hover::after {
+      width: 100%;
+  }
+  
+  .control-prev{
+    display: none;
+  }
+  
+  .footer-container{
+    border-top: .5px solid darkgreen;
+      margin: 75px;
+      margin-top: 100px;
+      padding-top: 30px;
+  }
+  
+  .footer-title{
+    font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px;
+      padding: 0 0 16px 0;
+  
+  }
+  
+  .inner-list li a{
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .inner-list{
+    margin-top: 30px;
+    font-size: 12px;
+    padding: 0 0 8px 0;
+  }
+  
+  .Thank-Note{
+    margin-top: 30px;
+    font-size: 12px;    
+  }
+  
+  .footer-mail{
+    margin-top: 30px;
+    font-size: 12px;    
+  }
+  
+  .footer-mail input{
+    height: 2rem;
+    padding: 0 0 0 12px;
+  }
+  
+  .subs-button {
+    height: 32px;
+    border: none;
+    background: #223C60;
+    cursor: pointer;
+  }
+  
+  .fab label{
+    padding-left: 5px;
+  }
