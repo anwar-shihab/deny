@@ -16,7 +16,7 @@ class Home extends Component {
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
               <div class="collapse navbar-collapse" id="navbarColor02">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item "><a className="nav-link" href="#products">PRODUCTS</a></li>
+                  <li class="nav-item "><a className="nav-link" href="/products">PRODUCTS</a></li>
                   <li class="nav-item"> <a className="nav-link" href="#collections">COLLECTIONS</a> </li>
                   <li class="nav-item"> <a className="nav-link" href="#our-story">OUR STORY</a></li>
                   <li class="nav-item"> <a className=" nav-link" href="#wholesale">WHOLESALE</a></li>
