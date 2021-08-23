@@ -34,7 +34,7 @@ class App extends Component {
             <Route path="/page3">
               <Signup />
             </Route>
-            <Route path="/page4">
+            <Route path="/#products">
               <Products />
             </Route>
             <Route path="/page5">
